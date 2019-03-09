@@ -37,3 +37,5 @@ docker run \
   -e BROADCAST_URL=rtsp://syno:111@192.168.0.1:554/Sms=1.unicast\
   chrisns/livestreamer
 ```
+
+Code all lifted from https://github.com/youtube/api-samples/blob/master/python/create_broadcast.py
