@@ -7,5 +7,5 @@ ffmpeg -f lavfi \
   -i ${BROADCAST_URL} \
   -vcodec mpeg4 \
   -pix_fmt + \
-  -c:v libx264 \
+  -c:v copy \                                                 
   -f flv rtmp://a.rtmp.youtube.com/live2/$(cat /tmp/streamname.txt)
